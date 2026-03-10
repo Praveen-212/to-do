@@ -29,7 +29,7 @@
 //
 // ============================================================
 
-// Credentials are loaded from config.js (git-ignored).
-// See config.example.js for the template.
+const SUPABASE_URL      = 'https://dvduwmjfmlpbbxszotvx.supabase.co';
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImR2ZHV3bWpmbWxwYmJ4c3pvdHZ4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzMxMDA4NDMsImV4cCI6MjA4ODY3Njg0M30.uas8qeA2ITDu2yevoOSUVwYL_daRoDnFgRnyRxXhyMs';
 
 const db = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
